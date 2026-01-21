@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.id-card {
+  background-color: #ffffff;
+  width: 350px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.id-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid black;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+ul, ol {
+  text-align: left;
+  font-size: 14px;
+}
+
+hr {
+  margin: 15px 0;
+}
+
+.quote {
+  font-style: italic;
+}
+
+a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+}
+
+a:hover {
+  background-color: #444;
+}
